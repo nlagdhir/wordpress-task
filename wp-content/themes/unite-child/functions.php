@@ -129,17 +129,17 @@ function create_film_taxonomies() {
 	/* Add new taxonomy, make it hierarchical (like categories)
 	 Options define for genre taxonomy */
 	$labels = array(
-		'name'              => _x( 'Genres'),
-		'singular_name'     => _x( 'Genre', 'taxonomy singular name', 'textdomain' ),
-		'search_items'      => __( 'Search Genres', 'textdomain' ),
-		'all_items'         => __( 'All Genres', 'textdomain' ),
-		'parent_item'       => __( 'Parent Genre', 'textdomain' ),
-		'parent_item_colon' => __( 'Parent Genre:', 'textdomain' ),
-		'edit_item'         => __( 'Edit Genre', 'textdomain' ),
-		'update_item'       => __( 'Update Genre', 'textdomain' ),
-		'add_new_item'      => __( 'Add New Genre', 'textdomain' ),
-		'new_item_name'     => __( 'New Genre Name', 'textdomain' ),
-		'menu_name'         => __( 'Genre', 'textdomain' ),
+		'name'              => _x( 'Genres','genres'),
+		'singular_name'     => _x( 'Genre','genre'),
+		'search_items'      => __( 'Search Genres'),
+		'all_items'         => __( 'All Genres'),
+		'parent_item'       => __( 'Parent Genre'),
+		'parent_item_colon' => __( 'Parent Genre:'),
+		'edit_item'         => __( 'Edit Genre'),
+		'update_item'       => __( 'Update Genre'),
+		'add_new_item'      => __( 'Add New Genre'),
+		'new_item_name'     => __( 'New Genre Name'),
+		'menu_name'         => __( 'Genre'),
 	);
 
 	$args = array(
@@ -156,17 +156,17 @@ function create_film_taxonomies() {
 
 	// Options define for country taxonomy
 	$labels = array(
-		'name'              => _x( 'Countries'),
-		'singular_name'     => _x( 'Country', 'taxonomy singular name', 'textdomain' ),
-		'search_items'      => __( 'Search Countries', 'textdomain' ),
-		'all_items'         => __( 'All Countries', 'textdomain' ),
-		'parent_item'       => __( 'Parent Country', 'textdomain' ),
-		'parent_item_colon' => __( 'Parent Country:', 'textdomain' ),
-		'edit_item'         => __( 'Edit Country', 'textdomain' ),
-		'update_item'       => __( 'Update Country', 'textdomain' ),
-		'add_new_item'      => __( 'Add New Country', 'textdomain' ),
-		'new_item_name'     => __( 'New Country Name', 'textdomain' ),
-		'menu_name'         => __( 'Country', 'textdomain' ),
+		'name'              => _x( 'Countries','countries'),
+		'singular_name'     => _x( 'Country','country'),
+		'search_items'      => __( 'Search Countries'),
+		'all_items'         => __( 'All Countries'),
+		'parent_item'       => __( 'Parent Country'),
+		'parent_item_colon' => __( 'Parent Country:'),
+		'edit_item'         => __( 'Edit Country'),
+		'update_item'       => __( 'Update Country'),
+		'add_new_item'      => __( 'Add New Country'),
+		'new_item_name'     => __( 'New Country Name'),
+		'menu_name'         => __( 'Country'),
 	);
 
 	$args = array(
@@ -183,17 +183,17 @@ function create_film_taxonomies() {
 
 	// Options define for year taxonomy
 	$labels = array(
-		'name'              => _x( 'Years'),
-		'singular_name'     => _x( 'Year', 'taxonomy singular name', 'textdomain' ),
-		'search_items'      => __( 'Search Years', 'textdomain' ),
-		'all_items'         => __( 'All Years', 'textdomain' ),
-		'parent_item'       => __( 'Parent Year', 'textdomain' ),
-		'parent_item_colon' => __( 'Parent Year:', 'textdomain' ),
-		'edit_item'         => __( 'Edit Year', 'textdomain' ),
-		'update_item'       => __( 'Update Year', 'textdomain' ),
-		'add_new_item'      => __( 'Add New Year', 'textdomain' ),
-		'new_item_name'     => __( 'New Year Name', 'textdomain' ),
-		'menu_name'         => __( 'Year', 'textdomain' ),
+		'name'              => _x( 'Years','years'),
+		'singular_name'     => _x( 'Year','year'),
+		'search_items'      => __( 'Search Years'),
+		'all_items'         => __( 'All Years'),
+		'parent_item'       => __( 'Parent Year'),
+		'parent_item_colon' => __( 'Parent Year:'),
+		'edit_item'         => __( 'Edit Year'),
+		'update_item'       => __( 'Update Year'),
+		'add_new_item'      => __( 'Add New Year'),
+		'new_item_name'     => __( 'New Year Name'),
+		'menu_name'         => __( 'Year'),
 	);
 
 	$args = array(
@@ -211,17 +211,17 @@ function create_film_taxonomies() {
 
 	// Options define for actor  taxonomy
 	$labels = array(
-		'name'              => _x( 'Actors'),
-		'singular_name'     => _x( 'Actor', 'taxonomy singular name', 'textdomain' ),
-		'search_items'      => __( 'Search Actors', 'textdomain' ),
-		'all_items'         => __( 'All Actors', 'textdomain' ),
-		'parent_item'       => __( 'Parent Actor', 'textdomain' ),
-		'parent_item_colon' => __( 'Parent Actor:', 'textdomain' ),
-		'edit_item'         => __( 'Edit Actor', 'textdomain' ),
-		'update_item'       => __( 'Update Actor', 'textdomain' ),
-		'add_new_item'      => __( 'Add New Actor', 'textdomain' ),
-		'new_item_name'     => __( 'New Actor Name', 'textdomain' ),
-		'menu_name'         => __( 'Actor', 'textdomain' ),
+		'name'              => _x( 'Actors','actors'),
+		'singular_name'     => _x( 'Actor','actor'),
+		'search_items'      => __( 'Search Actors'),
+		'all_items'         => __( 'All Actors'),
+		'parent_item'       => __( 'Parent Actor'),
+		'parent_item_colon' => __( 'Parent Actor:'),
+		'edit_item'         => __( 'Edit Actor'),
+		'update_item'       => __( 'Update Actor'),
+		'add_new_item'      => __( 'Add New Actor'),
+		'new_item_name'     => __( 'New Actor Name'),
+		'menu_name'         => __( 'Actor'),
 	);
 
 	$args = array(
